@@ -1,0 +1,3 @@
+Creazione di un progetto Nuovo:Innit
+Da terminale:
+    npm innit  //inizio un package.json(libreria),
