@@ -17,3 +17,10 @@ npm add xml-js (install e un comando duplice, ha due modi di essere utilizzati m
 
 Aggiungendo qeusta dipendenza si creera un nuovo file package-lock.json e il nostro file "package.json".
 Quindi il progetto "mypizza" dichiara volontariamente di fare uso della libreria "xml-js"
+
+//NPM install senza argomento, installazione completa
+    npm install (andra a leggere le dipendenze che gia ci sono, andra a recuperare/scaricare i pacchetti come node_modules,
+    installa la lista di pacchetti da cui package.json dipende)
+-serve per ricreare da 0 con soltanto le librerie che necessitiamo, magari prendiamo un progetto vecchio.
+
+//*git.ignore perche posso evitare di committare i node_modules.
