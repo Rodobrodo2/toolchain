@@ -1,3 +1,19 @@
 Creazione di un progetto Nuovo:Innit
 Da terminale:
-    npm innit  //inizio un package.json(libreria),
+    npm innit  //inizio un package.json(libreria)
+
+Tutte le librerie, applicative o toolchain le troviamo in npm.
+
+//Da terminale 
+XML, acronimo di eXtensible Markup Language,
+è un linguaggio di markup progettato per rappresentare dati in modo strutturato. 
+Simile all'HTML, XML utilizza tag per definire elementi, ma a differenza dell'HTML,
+che è orientato alla presentazione, 
+XML è orientato alla descrizione e allo scambio di dati.
+
+// Convertire codice XML in json
+npm i xml-js  (i sta per install)
+npm add xml-js (install e un comando duplice, ha due modi di essere utilizzati mentre add sto aggiungendo una dipendenza.)
+
+Aggiungendo qeusta dipendenza si creera un nuovo file package-lock.json e il nostro file "package.json".
+Quindi il progetto "mypizza" dichiara volontariamente di fare uso della libreria "xml-js"
